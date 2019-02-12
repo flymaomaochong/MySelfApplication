@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_storage"
+        style="@style/bg_btn"
+        android:text="存储相关"/>
+    <TextView
+        android:id="@+id/tv_photo"
+        style="@style/bg_btn"
+        android:text="拍照相关"/>
+    <TextView
+        android:id="@+id/tv_net"
+        style="@style/bg_btn"
+        android:text="网络相关(上传和下载)"/>
+    <TextView
+        android:id="@+id/tv_adapter"
+        style="@style/bg_btn"
+        android:text="适配器(adapter)"/>
+    <TextView
+        android:id="@+id/tv_layout"
+        style="@style/bg_btn"
+        android:text="效果布局的使用"/>
+    <TextView
+        android:id="@+id/tv_database"
+        style="@style/bg_btn"
+        android:text="数据库"/>
+    <TextView
+        android:id="@+id/tv_self_widget"
+        style="@style/bg_btn"
+        android:text="自定义控件"/>
+
+</LinearLayout>

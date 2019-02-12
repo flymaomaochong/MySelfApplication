@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_storage_write"
+        style="@style/bg_btn"
+        android:text="内存中写数据"/>
+    <TextView
+        android:id="@+id/tv_storage_read"
+        style="@style/bg_btn"
+        android:text="内存中读数据"/>
+    <TextView
+        android:id="@+id/tv_cache_write"
+        style="@style/bg_btn"
+        android:text="缓存中写数据"/>
+    <TextView
+        android:id="@+id/tv_cache_read"
+        style="@style/bg_btn"
+        android:text="缓存中读数据"/>
+</LinearLayout>
